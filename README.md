@@ -1,3 +1,3 @@
 # react-main
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-blzzih)
+[Edit on StackBlitz ⚡️](https://react-ef6xyj.stackblitz.io/)
