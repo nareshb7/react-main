@@ -1,0 +1,38 @@
+.navPage {
+  background-color: #ddd;
+  margin: 0;
+}
+.navPage li {
+  display: inline-block;
+  margin: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #666;
+  padding: 20px;
+}
+.carouselDiv img {
+  width: 100%;
+  height: 90vh;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+}
+.contactForm input {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.profileImage {
+  width: 100px;
+  height: 100px;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+}
