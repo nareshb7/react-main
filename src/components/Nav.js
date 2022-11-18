@@ -37,6 +37,9 @@ const Nav = () => {
         <li>
           <NavLink to="reusable">Reusable </NavLink>
         </li>
+        <li>
+          <NavLink to="progressbar">Progress Bar</NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -14,6 +14,7 @@ import Cart from './components/clothStore/Cart';
 import ReduxExample from './components/redux/ReduxExample';
 import Example from './components/example/Example';
 import Count from './components/reusableComp/Count';
+import LineBar from './components/progressBar/LineBar'
 
 const RoutesComp = () => {
   return (
@@ -36,6 +37,7 @@ const RoutesComp = () => {
         <Route path="reduxexample" element={<ReduxExample />} />
         <Route path="example" element={<Example />} />
         <Route path="reusable" element={<Count />} />
+        <Route path='progressbar' element={ <LineBar />} />
       </Routes>
     </div>
   );
