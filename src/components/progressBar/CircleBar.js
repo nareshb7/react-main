@@ -19,6 +19,7 @@ const CircleBar = () => {
               width: '180px',
               height: '180px',
               backgroundColor: '#0ff',
+              margin: '10px',
             }}
           ></div>
         </div>
