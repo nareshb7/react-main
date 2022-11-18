@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import CircleBar from './CircleBar';
 
 const LineBar = () => {
   const [value, setValue] = useState(50);
@@ -11,6 +12,7 @@ const LineBar = () => {
   }, [value]);
   return (
     <div>
+      <h3 style={{ color: '#f0f' }}>Slider : </h3>
       <div>
         <div>
           <input
@@ -32,6 +34,9 @@ const LineBar = () => {
         <span> Max :{max}</span>
         <h3>Value: {value}</h3>
         <h3>Percentage: {Number(percent).toFixed(2)}</h3>
+      </div>
+      <div>
+        <CircleBar />
       </div>
     </div>
   );
